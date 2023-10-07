@@ -1,0 +1,13 @@
+.relative-img {
+  height: 380px;
+  margin-left: -7.5em;
+  position: relative;
+}
+
+.gfhim-abso {
+  height: 114px;
+  width: 380px;
+  position: absolute;
+  top: 18em;
+  left: 60em;
+}

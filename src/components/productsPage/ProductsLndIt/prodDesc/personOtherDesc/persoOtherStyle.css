@@ -1,0 +1,14 @@
+.persoImg-relative {
+  position: relative;
+  height: 380px;
+  margin-left: -7.6em;
+}
+
+.persoDesc-absol {
+  position: absolute;
+  width: 385px;
+  height: 90px;
+  top: 18em;
+  left: 55em;
+  text-align: left;
+}

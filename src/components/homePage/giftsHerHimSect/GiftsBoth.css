@@ -1,0 +1,26 @@
+.Gifts-Both-cont {
+  height: 714px;
+  display: flex;
+  margin-top: 15em;
+  justify-content: space-evenly;
+}
+
+.gifts-title {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.arrow-btn-flex {
+  text-align: center;
+}
+
+.for-him img {
+  cursor: pointer;
+  border-radius: 10px;
+}
+.for-her img {
+  cursor: pointer;
+  border-radius: 10px;
+}

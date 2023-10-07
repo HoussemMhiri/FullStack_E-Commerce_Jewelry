@@ -1,0 +1,13 @@
+.lockImg-relative {
+  position: relative;
+  height: 380px;
+  margin-left: -7.6em;
+}
+
+.lockDesc-absol {
+  position: absolute;
+  width: 380px;
+  height: 114px;
+  top: 18em;
+  left: 55em;
+}

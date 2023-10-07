@@ -1,0 +1,39 @@
+.exper-sect {
+  height: 422px;
+  background-color: #fafafa;
+  padding: 0 52px;
+  margin-top: 5em;
+}
+
+.exper-cont {
+  display: flex;
+  justify-content: space-around;
+}
+
+.exper-cont-one {
+  position: relative;
+}
+
+.exper-p-cont {
+  position: absolute;
+  top: 100px;
+  text-align: center;
+}
+
+.exper-title {
+  height: 90px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+.exper-pTitle {
+  font-weight: 600;
+}
+
+.exper-p {
+  letter-spacing: 0.2px;
+}

@@ -1,0 +1,68 @@
+.topbar {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbarWrapper {
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topLeft {
+  /*  margin-top: 3em; */
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.topRight {
+  display: flex;
+  align-items: center;
+}
+
+.topbarIconsContainer {
+  position: relative;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.topIconBadge {
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.topAvatar {
+  width: 45px;
+  height: 43px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/*********** dashAdmin **********/
+/* .dashAdmin {
+  color: black;
+  text-decoration: none;
+}
+ */
+
+.all3Icons {
+  display: flex;
+  margin-right: 50px;
+}

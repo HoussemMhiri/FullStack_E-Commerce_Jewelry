@@ -1,0 +1,170 @@
+/********** all rightSide Cont ****/
+
+.addToBag-details-cont {
+  width: 608px;
+  height: 1000px;
+  padding: 54px 114px 0 114px;
+}
+
+/***************************/
+.allImgs-oneProd-Cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 910px;
+  height: 910px;
+  cursor: pointer;
+}
+
+.filter-Size {
+  margin-right: 0.8em;
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 20px;
+  margin-top: 1.2em;
+}
+
+.prodItem-Btn-desc {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  width: 378px;
+  align-items: center;
+  padding: 10px;
+
+  transition: all 0.3s ease;
+}
+
+.prodItem-Btn-desc:hover {
+  background-color: #35b9ac;
+  border: 1px solid black;
+}
+
+.prodItem-Btn-p {
+  margin-top: 1em;
+  margin-left: 1em;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.oneProdPage-sect {
+  display: flex;
+}
+
+/****** qtity *****/
+
+.addToBag-qtity {
+  display: flex;
+  justify-content: space-between;
+  height: 46px;
+  width: 380px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+
+.addToBag-qtity-btns-cont {
+  display: flex;
+}
+
+.addToBag-qtity-btns {
+  background: none;
+  border: none;
+  height: 10px;
+  margin: 0 10px;
+}
+
+.addToBag-qtity-title {
+  font-weight: 600;
+}
+
+.addToBag-qtity-btns-num {
+  font-weight: 600;
+}
+
+/*************** img desc **************/
+
+.addToBag-imgs-Desc {
+  margin-bottom: 3em;
+  position: relative;
+}
+
+.addToBag-imgs-title {
+  margin-bottom: 0;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.addToBag-imgs-title-desc {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/******** Liked BTN *******/
+
+.addToBag-saved-items {
+  position: relative;
+}
+
+.liks {
+  border: none;
+  background: none;
+  position: absolute;
+  top: -8px;
+  right: 25px;
+  display: flex;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.liks:hover {
+  background-color: #f9dcdc;
+}
+
+.liks i {
+  margin-top: 2px;
+  margin-left: 6px;
+  color: rgb(123, 118, 118);
+}
+
+.addToBag-saved-items-p {
+  font-weight: 600;
+}
+
+/********************* Size *******************/
+
+.addToBag-size {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.addToBag-size-p {
+  margin-top: 1em;
+  margin-left: 1px;
+  font-weight: 600;
+}
+
+/************************ details ****************/
+
+.details-oneProd-Cont {
+  margin-top: 5em;
+}
+
+.details-oneProd-title {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.details-oneProd-details {
+  line-height: 25px;
+  letter-spacing: 0.4px;
+  font-size: 14px;
+}

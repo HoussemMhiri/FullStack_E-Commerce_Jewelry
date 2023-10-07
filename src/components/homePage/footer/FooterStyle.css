@@ -1,0 +1,116 @@
+.all-Socials {
+  margin-top: 2em;
+}
+
+.all-Socials a {
+  color: black;
+  font-size: 1.7em;
+  padding-right: 30px;
+}
+
+.twitch:hover {
+  color: #e60023;
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+.youtube:hover {
+  color: #c4302b;
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+.twitter:hover {
+  color: #00acee;
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+.linkedin:hover {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 28px;
+  line-height: 28px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+
+/****************************************************************************************/
+
+.allFooter-Cont {
+  height: 425px;
+  border-top: 8px solid #81d8d0;
+}
+
+.footer-sect {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px 32px 0px;
+  margin-top: 2em;
+}
+
+.first-footer-cont {
+  display: flex;
+  width: 1177px;
+  justify-content: space-evenly;
+  margin-left: -5em;
+}
+
+.footer-dep-title {
+  margin-bottom: 1.5em;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.footer-dep-info p {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: all 0.3s ease;
+}
+
+.footer-dep-info p:hover {
+  /*   text-decoration: underline 1px solid #08b4a2; */
+  cursor: pointer;
+  color: #07a494;
+  padding-left: 10px;
+}
+
+.sec-footer-cont {
+  width: 300px;
+  margin-left: 10em;
+}
+
+.sec-footer-cont-title {
+  margin-bottom: 3em;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.sec-footer-cont-p {
+  font-size: 13px;
+  line-height: 16px;
+  text-align: left;
+  margin-bottom: 3em;
+  letter-spacing: 0.2px;
+}
+
+.footer-p-copy {
+  text-align: center;
+  padding-bottom: 1em;
+  font-weight: 600;
+}

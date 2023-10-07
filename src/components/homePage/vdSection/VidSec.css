@@ -1,0 +1,51 @@
+/* .vid-cont {
+  min-height: 200vh;
+} */
+.myvid {
+  object-fit: cover;
+  width: 98.9vw;
+  height: 554px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.vd-content {
+  position: absolute;
+  top: 33em;
+  left: 22em;
+  text-align: center;
+  color: white;
+}
+
+.vd-content p {
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+
+.vd-content h2 {
+  color: black;
+  font-weight: bold;
+}
+
+.vd-content .shop-btn-vd-btn {
+  border: none;
+  height: 40px;
+  width: 185px;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.vd-content .shop-btn-vd-p:hover {
+  text-decoration: underline 1.1px solid #26bdae;
+}
+
+.vd-content .shop-btn-vd-p {
+  color: black;
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 600;
+}

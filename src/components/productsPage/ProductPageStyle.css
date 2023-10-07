@@ -1,0 +1,23 @@
+.back-pdtPage-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.title-PP-Desc {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.title-PP-h3 {
+  margin-bottom: 1em;
+  letter-spacing: 1px;
+}
+
+.title-PP-p {
+  letter-spacing: 0.2px;
+  width: 80em;
+  margin: 0 auto;
+  line-height: 25px;
+}

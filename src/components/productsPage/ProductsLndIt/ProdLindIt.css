@@ -1,0 +1,53 @@
+/* Products CSS */
+
+.allProd-sect {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+  padding: 20px;
+  margin-bottom: 1em;
+  margin-top: -1em;
+}
+
+/* ProductItem CSS */
+
+.prodItem-Btn-des {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 300px;
+  align-items: center;
+  padding: 10px;
+  margin-left: 8px;
+  transition: all 0.3s ease;
+}
+
+.prodItem-Btn-des:hover {
+  background-color: #35b9ac;
+  border: 1px solid black;
+}
+
+.prodItem-Btn-p {
+  margin-top: 1em;
+  margin-left: 1em;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.prodItem-Btn-p-des {
+  font-size: 15px;
+  margin-left: 1em;
+  letter-spacing: 0.5px;
+}
+
+.pdtsImg {
+  cursor: pointer;
+}
+
+.spin {
+  margin-left: 46.5em;
+  margin-top: 8em;
+  margin-bottom: 20em;
+}

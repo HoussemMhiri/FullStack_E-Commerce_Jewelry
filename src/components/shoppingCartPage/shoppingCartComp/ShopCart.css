@@ -1,0 +1,214 @@
+/************** ALL CONT *******************/
+.shopComp-Sect {
+  width: 1240px;
+  margin: 0 120px;
+  padding: 0 20px;
+  margin-bottom: 10em;
+  display: flex;
+  margin-top: 5em;
+  justify-content: space-between;
+}
+
+/************* SHOPPROD CONT ***************/
+
+.shopProd-cont {
+  width: 740px;
+  padding: 0 100px 0 0;
+}
+
+/************************************ BTN ***************/
+
+.flesh-btn-SHOP {
+  border: none;
+  background: none;
+  position: relative;
+  height: 26px;
+  width: 300px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.flesh-btn-SHOP:hover {
+  text-decoration: underline 1.2px solid #26bdae;
+}
+
+.arrow-right-SHOP {
+  position: absolute;
+  top: 7px;
+  left: -1%;
+  font-weight: 700;
+}
+
+.flesh-p-SHOP {
+  letter-spacing: 0.3px;
+  margin-right: 10em;
+}
+
+/********************* title + btn ***************/
+
+.shopProd-cont-h3 {
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  width: 740px;
+}
+
+/************************* prod desc *********************/
+.shopProd-cont-product {
+  display: flex;
+  width: 740px;
+  border-bottom: 1px solid black;
+  padding-bottom: 2em;
+  margin-top: 1.5em;
+  position: relative;
+}
+
+.shopProd-cont-desc-SizendQtity {
+  display: flex;
+  justify-content: space-between;
+  width: 520px;
+}
+
+.shopProd-cont-desc-Qtity-btn {
+  display: flex;
+}
+
+.shopProd-cont-desc-Qtity-btnSign {
+  background: none;
+  border: none;
+  height: 10px;
+  margin: 0 4px;
+}
+
+.qtity-word-shopCart {
+  margin-left: 1.5em;
+  color: #767676;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.shopProd-cont-desc-Qtity-btn-num {
+  font-weight: 600;
+}
+
+.shopProd-cont-desc-Size {
+  margin-left: 1em;
+}
+
+.shopProd-cont-desc-Size-title {
+  color: #767676;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 1em;
+}
+
+.shopProd-cont-desc-Size-p {
+  font-weight: 600;
+}
+
+.shopCart-Price {
+  color: #767676;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 1em;
+}
+
+.prod-p {
+  font-weight: 600;
+  margin-left: 1em;
+  letter-spacing: 0.5px;
+}
+
+/********************* CHECKOUT ***********************/
+
+.checkout-cont {
+  width: 400px;
+  background-color: #f5f5f5;
+  margin: 20px 0 30px 0;
+  padding: 30px;
+  height: 500px;
+  margin-left: 5em;
+}
+
+.checkout-cont-p {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-bottom: 2em;
+  font-size: 18px;
+}
+
+.flexCheckout {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0;
+}
+
+.flexCheckout-title {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.flexCheckout-price {
+  font-weight: 500;
+}
+
+.total-fleshCH {
+  border-top: 1px solid black;
+  margin-top: 1em;
+  padding-top: 1em;
+  font-size: 20px;
+}
+
+.checkOutBtn {
+  width: 340px;
+  color: white;
+  background-color: black;
+  height: 57px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.checkOutBtn:hover {
+  background-color: #3bb1a6;
+  color: white;
+  border: 1px solid black;
+}
+
+.checkoutMsg {
+  width: 191px;
+  height: 32px;
+  margin: 0 75px;
+  padding: 10px 0 0 0;
+  font-size: 14px;
+  text-align: center;
+  line-height: 16px;
+  margin-top: 1em;
+}
+
+/****** shopCartDelete *****/
+
+.shopCartDelete {
+  position: absolute;
+  top: 0.1em;
+  left: 42.5em;
+}
+
+.emptyShopBag {
+  display: flex;
+  justify-content: center;
+  margin-top: 6em;
+  letter-spacing: 1px;
+}
+
+/********* prod-p-title ***********/
+
+.prod-p-title {
+  max-width: 500px;
+}

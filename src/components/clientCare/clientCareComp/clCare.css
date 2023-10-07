@@ -1,0 +1,62 @@
+.bannerImg {
+  position: relative;
+}
+
+.bannerDesc {
+  height: 150px;
+  width: 426px;
+  text-align: left;
+  position: absolute;
+  top: 22em;
+  left: 55em;
+}
+
+.openHours {
+  text-align: center;
+  margin: 5em 0;
+}
+
+.assistant {
+  text-align: center;
+}
+.allCardAssistant {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cardImg {
+  width: 221px;
+}
+
+.cardImg:hover {
+  border: 2px solid #81d8d0;
+}
+
+.cardHelp {
+  margin-bottom: 4em;
+  cursor: pointer;
+}
+
+.imgsProductsContainers {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 4em 0;
+}
+
+.imgProductDesc {
+  height: 90px;
+  width: 512px;
+  text-align: center;
+  margin: 1em 0;
+}
+
+.imgPdtH4 {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.btnImgAbs {
+  margin-top: 1em;
+}

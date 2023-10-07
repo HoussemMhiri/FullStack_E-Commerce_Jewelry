@@ -1,0 +1,14 @@
+.engageImg-relative {
+  position: relative;
+  height: 380px;
+  margin-left: -7.5em;
+}
+
+.engageDesc-absol {
+  position: absolute;
+  width: 410px;
+  height: 162px;
+  text-align: left;
+  top: 18.5em;
+  left: 50em;
+}

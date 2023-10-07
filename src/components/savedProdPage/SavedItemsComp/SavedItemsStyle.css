@@ -1,0 +1,51 @@
+.absolute-card {
+  position: relative;
+  margin: 1em 1em;
+  border-bottom: 1px solid black;
+}
+
+.delete-btn-card {
+  background: none;
+  border: none;
+  width: 50px;
+  position: absolute;
+  top: 10px;
+  left: 300px;
+}
+
+.delete-btn-card:hover {
+  color: brown;
+}
+
+.Saveditems-comp-title {
+  border-bottom: 2px solid black;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+.Saveditems-comp-sect {
+  margin: 0 auto;
+  max-width: 80em;
+  margin-top: 5em;
+}
+
+.Saveditems-comp-cards {
+  margin-bottom: 5em;
+  display: flex;
+  margin: 2em;
+  flex-wrap: wrap;
+}
+
+.newbtnsDes {
+  margin-top: 1.5em;
+  margin-left: -0em;
+}
+
+.emptySavedItems {
+  margin: 5em 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

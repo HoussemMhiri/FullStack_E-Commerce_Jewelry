@@ -1,0 +1,55 @@
+.registerComp-Sect {
+  width: 1260px;
+  height: 55em;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-form {
+  width: 416px;
+  margin-left: 3em;
+  margin-top: 5em;
+}
+
+.check-parag {
+  display: flex;
+  margin-top: -3em;
+}
+
+.check-parag-p {
+  padding-top: 4.2em;
+  padding-left: 10px;
+}
+
+.inp-default {
+  height: 45px;
+  font-size: 15px;
+}
+
+.label-default {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  margin-bottom: -0.1em;
+}
+
+.label-default-p {
+  font-size: 18px;
+}
+.img-register-container {
+  margin-top: 9em;
+}
+
+/********* Title and Desc ****************/
+
+.register-form-h2 {
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  margin-left: 1em;
+}
+
+.register-form-p {
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  margin-left: 2em;
+}

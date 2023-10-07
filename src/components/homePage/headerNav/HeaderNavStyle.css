@@ -1,0 +1,100 @@
+.headerNav {
+  height: 102px;
+  padding: 20px 24px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/**************************************/
+
+.upper-Header {
+  height: 36px;
+  background-color: #81d8d0;
+  color: black;
+  display: flex;
+  font-weight: 600;
+}
+
+.left-Upper-nav {
+  display: flex;
+  align-items: center;
+  width: 10%;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5em;
+}
+
+.left-Upper-nav p {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.Midd-Upper-nav p {
+  margin-top: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 29.3em;
+}
+
+.right-Upper-nav {
+  text-align: center;
+  margin-left: 32em;
+}
+
+/**************************************/
+.left-nav {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: -20px;
+}
+.clientCare:hover {
+  border-bottom: 2px solid #81d8d0;
+}
+
+.clientCare {
+  height: 22px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clientCare p {
+  margin-top: 18px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.midd-nav img {
+  width: 150px;
+  height: auto;
+}
+
+.right-nav {
+  width: 22%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.right-nav p {
+  cursor: pointer;
+  font-weight: bold;
+}
+.right-nav p:hover {
+  border-bottom: 2px solid #81d8d0;
+}
+
+.shopIcon {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/********** shopCartIcon ***********/
+
+.shopCartIcon {
+  color: black;
+}

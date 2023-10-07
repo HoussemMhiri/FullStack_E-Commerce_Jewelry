@@ -1,0 +1,34 @@
+.person-Sect-Cont {
+  background-image: url("https://media.tiffany.com/is/image/tiffanydm/BrowseGridHero_EngravableGifts_Desktop?$tile$&wid=2992&fmt=webp");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 8em;
+  position: relative;
+}
+
+.person-Sect-desc {
+  position: absolute;
+  top: 0px;
+  bottom: 15px;
+  right: 152px;
+  left: 950px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.person-Sect-p {
+  width: 456px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.person-Sect-title {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}

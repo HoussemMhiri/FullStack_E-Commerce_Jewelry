@@ -1,0 +1,18 @@
+.neckPdtcsCont {
+  display: flex;
+  margin-left: 1em;
+  height: 251px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.neckPdtcsImg {
+  width: 221px;
+  height: 221px;
+}
+
+.neckPdtcsDiv {
+  margin-right: 1em;
+}

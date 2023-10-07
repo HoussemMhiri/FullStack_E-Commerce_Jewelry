@@ -1,0 +1,61 @@
+.jewlery-Categ {
+  position: relative;
+  width: 0%;
+}
+
+.JewleryNav-title {
+  cursor: pointer;
+  width: 65px;
+}
+
+.JewleryNav-title:hover {
+  border-bottom: 2px solid #81d8d0;
+  width: 65px;
+
+  font-weight: 600;
+}
+
+.btns-Jew-Coll {
+  margin-top: -12px;
+  background-color: white;
+  display: flex;
+  min-height: 50vh;
+  width: 97.6em;
+  justify-content: space-around;
+  align-items: center;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  margin-left: -357px;
+}
+
+.jewlery-Categ:hover .btns-Jew-Coll {
+  display: flex;
+}
+
+.neck-Div {
+  cursor: pointer;
+}
+
+.neck-Div p {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.parg-hover:hover {
+  text-decoration: underline #81d8d0;
+  font-weight: 600;
+}
+
+.parg-hover {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+
+.links {
+  text-decoration: none;
+}

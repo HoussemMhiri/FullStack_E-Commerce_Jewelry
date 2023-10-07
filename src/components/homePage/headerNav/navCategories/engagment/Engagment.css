@@ -1,0 +1,52 @@
+.Engage-nav-cont {
+  position: relative;
+}
+
+.title-Engage-Nav {
+  cursor: pointer;
+}
+
+.all-Engage-Prod-cont {
+  display: flex;
+  background-color: white;
+  width: 100em;
+  justify-content: space-evenly;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  margin-left: -79em;
+  align-items: center;
+  margin-top: -12px;
+}
+
+.Engage-nav-cont:hover .all-Engage-Prod-cont {
+  display: flex;
+}
+
+.one-Engage {
+  margin-top: 2em;
+}
+
+.one-Engage p {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.desc-engage:hover {
+  text-decoration: underline #81d8d0;
+  font-weight: 600;
+}
+
+.title-Engage-Nav:hover {
+  border-bottom: 2px solid #81d8d0;
+  width: 100%;
+
+  font-weight: 600;
+}
+
+.one-Engage img {
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.flesh-btn-categ {
+  border: none;
+  background: none;
+  position: relative;
+  height: 26px;
+  width: 88px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.flesh-btn-categ:hover {
+  text-decoration: underline 1.1px solid #26bdae;
+}
+
+.arrow-right {
+  position: absolute;
+  top: 2px;
+  left: 90%;
+}
+
+.flesh-p-categ {
+  letter-spacing: 0.3px;
+}

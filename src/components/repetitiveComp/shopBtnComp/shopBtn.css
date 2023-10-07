@@ -1,0 +1,17 @@
+.Shop-Btn {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 174px;
+  padding: 8px 24px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.Shop-Btn:hover .shop-btn-p {
+  text-decoration: underline 1.1px solid #26bdae;
+}

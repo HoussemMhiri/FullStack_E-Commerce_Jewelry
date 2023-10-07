@@ -1,0 +1,11 @@
+.word-btn {
+  border: none;
+  background: none;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.word-btn:hover .p-word-btn {
+  text-decoration: underline 1.1px solid #26bdae;
+}
