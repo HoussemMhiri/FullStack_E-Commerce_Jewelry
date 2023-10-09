@@ -30,7 +30,7 @@ const ProductItem = ({ el }) => {
       </div> */}
 
       <div key={el._id} className="absolute-cards">
-        <Card style={{ width: "21.7rem" }}>
+        <Card style={{ width: "21.7rem", height: "500px" }}>
           <Link to={`/product/${el._id}`}>
             <Card.Img variant="top" src={el.imgs[0]} className="pdtsImg" />
           </Link>
@@ -39,13 +39,11 @@ const ProductItem = ({ el }) => {
               likeChange(e);
               handleLikeClick(el);
             }}
-            className={`liked ${
-              isProductLiked(el) ? "active" : ""
-            }`} /* "liked" */
+            className={`liked ${isProductLiked(el) ? "active" : ""}`}
           >
             <i className="fas fa-heart"></i>
           </button>
-          <Card.Body>
+          <Card.Body className="allBtnAndP">
             <p className="prodItem-Btn-p-des">{el.descProd}</p>
 
             <div className="prodItem-Btn-des">

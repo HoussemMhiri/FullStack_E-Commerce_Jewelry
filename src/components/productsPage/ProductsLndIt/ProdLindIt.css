@@ -51,3 +51,9 @@
   margin-top: 8em;
   margin-bottom: 20em;
 }
+
+.allBtnAndP {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
