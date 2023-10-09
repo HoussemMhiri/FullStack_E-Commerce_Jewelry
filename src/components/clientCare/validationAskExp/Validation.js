@@ -1,5 +1,5 @@
 const validateEmail = ({ email, setEmailError }) => {
-  return email && !email.includes("@gmail.com")
+  return email && !email.endsWith("@gmail.com")
     ? setEmailError("Email not valid")
     : setEmailError("");
 };
