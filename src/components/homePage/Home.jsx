@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HeaderNav from "./headerNav/HeaderNav";
 import VidSec from "./vdSection/VidSec";
 import SliderProd from "./PopProdCarro/SliderProd";
@@ -12,6 +12,10 @@ import BfFooter from "./bfFooter/BfFooter";
 import FooterSect from "./footer/FooterSect";
 
 const Home = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
+
   return (
     <section>
       <HeaderNav />
