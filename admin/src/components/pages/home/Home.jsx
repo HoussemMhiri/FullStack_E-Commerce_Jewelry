@@ -40,6 +40,7 @@ const Home = () => {
       };
       try {
         const { data } = await axios.get("/api/users/stats", config);
+
         setUserStats([]);
         data.map((el) =>
           setUserStats((prev) => [
