@@ -11,7 +11,6 @@ const DiamondsStroy = () => {
           come from. We proudly trace 100% of our rough diamonds to known mines
           and sources.
         </p>
-        {/*  <FleshBtn el={"Explore Love & Engagement"} style={{ width: "250px" }} /> */}
       </div>
     </section>
   );

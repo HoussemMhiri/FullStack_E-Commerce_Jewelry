@@ -52,6 +52,7 @@ const Home = () => {
       }
     };
     getStats();
+    console.log(userStats);
   }, [MONTHS]);
 
   return (

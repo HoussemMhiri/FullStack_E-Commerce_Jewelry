@@ -10,7 +10,7 @@ const User = require("../models/User");
 // USER UPDATE
 router.put("/:id", verifyTokenAndAuth, async (req, res) => {
   if (req.body.password) {
-    req.body.password = await bcrypt.hash(req.params.password, 10);
+    req.body.password = await bcrypt.hash(req.body.password, 10);
   }
 
   try {

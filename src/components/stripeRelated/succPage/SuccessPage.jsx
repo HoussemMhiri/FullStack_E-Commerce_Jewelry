@@ -9,6 +9,7 @@ const SuccessPage = () => {
   const dataStripe = location.state.data;
   const cart = location.state.cart;
 
+  console.log(location);
   const { users } = useSelector((state) => state.authReducer);
   const [orderId, setOrderId] = useState(null);
   useEffect(() => {
