@@ -34,7 +34,9 @@ const Products = ({ cat, filters, sort }) => {
   useEffect(() => {
     if (sort === "newest") {
       setFilterdProducts((prev) =>
-        [...prev].sort((a, b) => a.createdAt - b.createdAt)
+        [...prev].sort(
+          (a, b) => a.createdAt.slice(14, 16) - b.createdAt.slice(14, 16)
+        )
       );
     } else if (sort === "asc") {
       setFilterdProducts((prev) => [...prev].sort((a, b) => a.price - b.price));

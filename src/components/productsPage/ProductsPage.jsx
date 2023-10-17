@@ -12,6 +12,7 @@ const ProductsPage = () => {
   const cat = location.pathname.split("/")[2];
 
   const [filters, setFilters] = useState({});
+
   const [sort, setSort] = useState("newest");
 
   const handleFilters = (e) => {
@@ -20,6 +21,9 @@ const ProductsPage = () => {
       ...filters,
       [e.target.name]: value,
     });
+    if (value === "all") {
+      window.location.reload();
+    }
   };
   console.log(filters);
 
